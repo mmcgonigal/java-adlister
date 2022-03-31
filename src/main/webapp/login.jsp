@@ -50,6 +50,8 @@
 
 
 
+
+
 <c:if test="${username.equalsIgnoreCase('admin') && password.equalsIgnoreCase('password')}">
   <h1>hello is this working finally?</h1>
   <%--  <c:redirect url="/profile.jsp"/>--%>
